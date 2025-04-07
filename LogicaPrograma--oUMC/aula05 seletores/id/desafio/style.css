@@ -1,0 +1,32 @@
+body {
+    width: 50vw;
+    margin: auto;
+    background-color: ghostwhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1#titulo1 {
+    background-color: blue;
+    color: lightblue;
+}
+
+h1#titulo2 {
+    background-color: lightseagreen;
+    color: aqua;
+}
+
+h2.subtitulo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: purple;
+}
+
+p.paragrafo {
+    font-size: 1.6em;
+    line-height: 1.6;
+    color: gray;
+    text-align: justify;
+}

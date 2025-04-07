@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    width: 60vw;
+}
+
+td, th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 15px;
+}
+
+th {
+    background-color: gray;
+}
+
+td {
+    background-color: aqua;
+}
+
+/*efeito*/
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+/*efeito zebrado*/

@@ -1,0 +1,32 @@
+body{
+    width: 50vw;
+    margin: auto;
+}
+
+h1{
+    background-color: lightblue;
+    color: blue;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+
+}
+
+#subtit1{
+    background-color: darkturquoise;
+}
+
+.subtit{
+    background-color: mediumseagreen;
+    color: rgb(red, green, blue);
+}
+
+.paragrafo1{
+    background-color: brown;
+}

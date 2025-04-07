@@ -1,0 +1,15 @@
+table {
+    border-collapse:collapse;
+    width: 213vh;
+    padding: 5px;
+    height: 90vh;
+}
+
+tr, td {
+    text-align: center;
+    
+}
+
+th {
+    background-color: gray;
+}
