@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes no HTML e CSS</title>
+
+    <style>
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+
+        h1, h2{
+            /* modificando o tipo da fonte*/
+            font-family: "Noto Sans JP", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: italic;
+
+            /*alinhamento do texto*/
+            text-align: center;
+        }
+
+
+        p{
+            /* modificando o tipo da fonte*/
+            font-family: 'Times New Roman', Times, serif;
+            /*modificando o tamanho da fonte*/
+            font-size: 30px;
+            /*alinhamento do texto*/
+            text-align: justify;
+        }
+
+        span{
+            font-weight: bold;
+            font-style: italic;
+            color: palevioletred;
+        }
+
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        Bem-vindo ao nosso site
+    </header>
+
+    <main>
+        <section>
+
+        <h2>alterando o estilo da fonte</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aliquam asperiores possimus dolorum temporibus quos porro maiores veritatis obcaecati sapiente consequuntur veniam corrupti nihil quod quis nulla nostrum, repellat officia!</p>
+
+        <p>Lorem ipsum <span>dolor sit amet consectetur, adipisicing elit</span>. Esse nulla quia nisi quibusdam eius ratione debitis voluptatibus aliquid sed quam alias ipsa placeat odit, nostrum, reiciendis, aspernatur dignissimos tempore soluta.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque veniam nostrum omnis, ipsum exercitationem, reiciendis fuga inventore nulla minima et ut maiores? Dolore accusamus expedita vel voluptate, atque id doloremque! <a href="">Clique aqui</a>.</p>
+
+        </section>
+
+    </main>
+    
+</body>
+</html>

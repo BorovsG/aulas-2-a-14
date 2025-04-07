@@ -1,0 +1,18 @@
+body {
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+}
+
+h1.titulo {
+    color: white;
+}
+
+h2.subtitulo {
+    color: rgb(47, 255, 134);
+}
+
+p.paragrafo {
+    color: rgba(0, 251, 255, 0.998);
+}
